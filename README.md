@@ -1,24 +1,33 @@
-🛡️ SOC L1 Case Reports Portfolio
-Hands-on Security Operations Center (SOC) investigation reports detailing evidence-based triage, analysis of Indicators of Compromise (IOCs), and final remediation notes.
+🛡️ SOC Investigation Case Reports
+==================================
+
+A collection of hands-on Security Operations Center (SOC) Tier 1 investigation reports. This repository documents the end-to-end lifecycle of security incidents—from initial alert triage to evidence-based analysis and final remediation.
 
 📖 Overview
-This repository serves as a professional portfolio for SOC Tier 1 activities. It contains a collection of documented security incidents, ranging from phishing and malware analysis to SQL injection and unauthorized access attempts. Each report follows a structured investigative process:
+-----------
 
-Detection & Triage: Initial alert analysis.
+Each report in this repository represents a deep-dive analysis of a specific security event. The goal of these documents is to demonstrate a structured analytical mindset and technical proficiency in identifying real-world threats.
 
-Analysis: Deep dive into logs, traffic, and file behavior.
+**Every report follows a standardized 4-step workflow:**
 
-Containment & Eradication: Recommended or performed actions.
-
-Final Summary: Lessons learned and false/true positive classification.
+1.  **Detection & Triage**: Analyzing the initial SIEM/EDR alert.
+    
+2.  **Evidence Collection**: Investigating logs, network traffic (PCAP), and endpoint behavior.
+    
+3.  **Analysis & Pivot**: Correlating data with Threat Intelligence (OSINT).
+    
+4.  **Resolution**: Classifying the event (True/False Positive) and suggesting containment.
+    
 
 🛠️ Analysis Toolkit
-Throughout these cases, I utilize various industry-standard tools and frameworks:
+--------------------
 
-SIEM/Monitoring: LetsDefend, Splunk, ELK Stack.
+The following tools and frameworks are utilized throughout these investigations:
 
-Threat Intel: VirusTotal, Any.Run, AbuseIPDB, Cisco Talos.
-
-Log Analysis: Wireshark (PCAP analysis), Process Hacker, Browser History View.
-
-Frameworks: MITRE ATT&CK® Mapping.
+*   **SIEM/Detection:** LetsDefend, Splunk, Microsoft Defender.
+    
+*   **Intelligence:** VirusTotal, Any.Run, AbuseIPDB, Cisco Talos.
+    
+*   **Forensics:** Wireshark, Process Hacker, Browser History View.
+    
+*   **Frameworks:** MITRE ATT&CK® (Mapping attacker techniques).
